@@ -3,9 +3,9 @@
 ## Tabla de contenido
 1. [Información general](#información-general)
 2. [Tecnologías](#tecnologías)
-3. [Razonamiento y Solución](#Razonamiento y Solución)
-4. [Capturas de Pantalla](#Capturas de Pantalla)
-5. 
+3. [Razonamiento y Solución](#razonamiento y solución)
+4. [Capturas de Pantalla](#capturas de pantalla)
+
 ### Información general
 ***
 Desafío para la empresa Recruitingmsa. 
@@ -36,4 +36,4 @@ Espero les agrade mi solución, desde ya aclaro que no tengo mucha experiencia p
 
 
 ### Capturas de pantalla
-![Principal]([https://i.ibb.co/471pDfw/sistema-surtidor.gif](https://i.ibb.co/XD1p1WP/desafio-Ajedrez.gif))
+![Principal](https://i.ibb.co/XD1p1WP/desafio-Ajedrez.gif)
