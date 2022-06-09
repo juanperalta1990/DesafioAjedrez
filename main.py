@@ -5,6 +5,7 @@ import customtkinter
 customtkinter.set_appearance_mode("Sistem")  
 customtkinter.set_default_color_theme("green")  
 
+# Create App
 
 class App(customtkinter.CTk):
 
@@ -114,9 +115,11 @@ class App(customtkinter.CTk):
         radio_button_1.select()
         self.switch.select(1)
         
+    # Create Method, passes the selected parameters to the Draw Method
     def create(self):
         colors = {'Blanco': 'white', 'Negro': 'black','Azul': 'blue','Rojo': 'red','Verde': 'green'}
 
+        #check selected board size
         if self.radio_var.get() == 0:
             num=8
             color1= colors[self.combobox1.get()]
@@ -136,11 +139,13 @@ class App(customtkinter.CTk):
             self.draw(num, color1, color2)
             
 
+    #draw method, paints the board according to the colors and measurements it receives as parameters.
     def draw(self, num, color1, color2):
         table = tkinter.Canvas(master=self.frame_right, scrollregion=(0,0,5050,5050))
         table.grid(row=0, column=0, sticky="nswe")
-        box_size= 840/num
+        box_size= 840/num #defines the size of the boxes so that they do not exceed the size of the screen.
         if num > 100:
+            #defines the size of the boxes for 1000x1000 board and add scrollbar.
             box_size= 5000/num
             hbar=tkinter.Scrollbar(self.frame_right, orient='horizontal')
             hbar.grid(row=1, column=0, sticky='we')
@@ -149,8 +154,8 @@ class App(customtkinter.CTk):
             vbar.grid(row=0, column=1, sticky='ns')
             vbar.config(command=table.yview)
             table.config(xscrollcommand=hbar.set, yscrollcommand=vbar.set)
-        color = ''
-        k = 0
+        color = '' #color variable to iterate the color change according to the challenge.
+        k = 0 #variable to meet the condition that there are not the same number of red boxes in different rows and columns.
 
         for j in range(num):
             for i in range(num):
@@ -169,7 +174,7 @@ class App(customtkinter.CTk):
 
         return
 
-                
+    #method to change theme color            
     def change_mode(self):
         if self.switch.get() == 1:
             customtkinter.set_appearance_mode("dark")
