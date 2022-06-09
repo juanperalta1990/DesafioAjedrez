@@ -11,7 +11,9 @@
 
 Desafío para la empresa Recruitingmsa. 
 
-Planteo: Un niño está jugando a colorear su tablero de ajedrez y va a pintar cada casilla toda de azul o toda de rojo. Para darle un toque personalizado, quiere pintar la misma cantidad de casillas rojas que de azules, pero no quiere que le queden dos columnas con la misma cantidad de casillas rojas pintadas, ni quiere que le queden dos filas con la misma cantidad de casillas rojas pintadas.
+Planteo: 
+
+Un niño está jugando a colorear su tablero de ajedrez y va a pintar cada casilla toda de azul o toda de rojo. Para darle un toque personalizado, quiere pintar la misma cantidad de casillas rojas que de azules, pero no quiere que le queden dos columnas con la misma cantidad de casillas rojas pintadas, ni quiere que le queden dos filas con la misma cantidad de casillas rojas pintadas.
 
 ¿Puede lograr pintarlo cumpliendo esas condiciones?
 
