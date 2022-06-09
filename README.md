@@ -3,11 +3,12 @@
 ## Tabla de contenido
 1. [Información general](#información-general)
 2. [Tecnologías](#tecnologías)
-3. [Razonamiento y Solución](#razonamiento y solución)
-4. [Capturas de Pantalla](#capturas de pantalla)
+3. [Razonamiento y Solución](#razonamiento-y-solución)
+4. [Capturas de Pantalla](#capturas-de-pantalla)
 
-### Información general
 ***
+### Información general
+
 Desafío para la empresa Recruitingmsa. 
 
 Planteo: Un niño está jugando a colorear su tablero de ajedrez y va a pintar cada casilla toda de azul o toda de rojo. Para darle un toque personalizado, quiere pintar la misma cantidad de casillas rojas que de azules, pero no quiere que le queden dos columnas con la misma cantidad de casillas rojas pintadas, ni quiere que le queden dos filas con la misma cantidad de casillas rojas pintadas.
@@ -16,15 +17,17 @@ Planteo: Un niño está jugando a colorear su tablero de ajedrez y va a pintar c
 
 ¿Y si en vez de un tablero de ajedrez normal de 8x8 fuese un tablero de ajedrez gigante de 1000x1000?
 
-## Tecnologías
 ***
+## Tecnologías
+
 Una lista de tecnologías utilizadas en el proyecto:
 * [Python](https://python.com): Versión 3.10.4
 * [Tkinter](https://docs.python.org/es/3/library/tkinter.html): Version 8.5
 * [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter): Version 4.3
 
-## Razonamiento y Solución
 ***
+## Razonamiento y Solución
+
 Utilicé el lenguaje de programación python por que es el que mas domino actualmente, y con el cual tengo mas experiencia.
 Ya había utilizado la librería tkinter para desarrollo de interfaces graficas muy buena para software de escritorio, asi que elegí este camino para resolver el desafío. Como un plus utilicé la librería Custom-Tkinter desarrolada por TomSchimansky la cual le da un toque moderno e incluí funcionalidad para cambiar color de tema de la App.
 
@@ -34,6 +37,6 @@ El dibujo de cada casillero se realiza con un bucle for anidado el cual contiene
 
 Espero les agrade mi solución, desde ya aclaro que no tengo mucha experiencia pero si deceo de aprender constantemente sobre programación ya que me apaciona y quiero trabajar de esto. Saludos.
 
-
+***
 ### Capturas de pantalla
 ![Principal](https://i.ibb.co/XD1p1WP/desafio-Ajedrez.gif)
